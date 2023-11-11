@@ -45,7 +45,7 @@ export default function Home() {
                  download={true}
                 >
                   Resume
-                  <LinkArrow className={'w-6 ml-1'} />
+                  <LinkArrow className={'!w-6 !md:w-4 ml-1'} />
                 </Link>
                 <Link href="mailto:ayodejiosayemi@gmail.com" target={'_blank'}
                 className='ml-4 text-lg font-medium capitalize text-dark dark:text-light underline md:text-base'
