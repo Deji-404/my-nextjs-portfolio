@@ -51,46 +51,21 @@ const Experience = () => {
                 md:w-[2px] md:left-[30px] xs:left-[20px]" />
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                     <Details
-                    position={"Software Engineer"} company={"Google"} companyLink={"https://www.google.com"}
-                    time={"2022-Present"} address={"Mountain View, CA"}
-                    work={`Worked on a team responsible for developing new features for Google's 
+                    position={"Software Engineer"} company={"Whoscore"} companyLink={"https://www.google.com"}
+                    time={"2023-Present"} address={"Lagos, Nigeria"}
+                    work={`Worked on a team responsible for developing new features for whoscore bet
                     search engine, including improving the accuracy and relevance of search results and 
                     developing new tools for data analysis and visualization.`}
                      />
 
                     <Details
-                    position={"Software Engineer"} company={"Google"} companyLink={"https://www.google.com"}
-                    time={"2022-Present"} address={"Mountain View, CA"}
-                    work={`Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization.`}
+                    position={"Software Engineer Intern"} company={"Pancokrato Integrated Services"} companyLink={"https://www.google.com"}
+                    time={"2023-Present"} address={"Lagos Nigeria"}
+                    work={`Coordinated with project management on database development timelines and also 
+                    designed reusable and reliable code for use within distributed cloud environments.`}
                      />
 
-                    <Details
-                    position={"Software Engineer"} company={"Google"} companyLink={"https://www.google.com"}
-                    time={"2022-Present"} address={"Mountain View, CA"}
-                    work={`Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization.`}
-                     />
-
-
-                    <Details
-                    position={"Software Engineer"} company={"Google"} companyLink={"https://www.google.com"}
-                    time={"2022-Present"} address={"Mountain View, CA"}
-                    work={`Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization.`}
-                     />
-
-
-                    <Details
-                    position={"Software Engineer"} company={"Google"} companyLink={"https://www.google.com"}
-                    time={"2022-Present"} address={"Mountain View, CA"}
-                    work={`Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization.`}
-                     />
+                    
                 </ul>
             </div>
         </div>
