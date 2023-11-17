@@ -8,7 +8,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Skills from "@/components/Skiils";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
+import profilePic from "../../public/images/profile/deji.jpeg";
 
 
 const AnimatedNumbers = ({value}) => {
@@ -77,7 +77,7 @@ const About = () => {
                         <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
                             <div className="flex flex-col items-end justify-center xl:items-center">
                                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xm:text-4xl">
-                                    <AnimatedNumbers value={50} />+
+                                    <AnimatedNumbers value={7} />+
                                 </span>
                                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                                 xl:text-center md:text-lg sm:text-base xs:text-sm">satisfied clients</h2>

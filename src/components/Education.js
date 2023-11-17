@@ -54,12 +54,9 @@ const Education = () => {
 
                     <Details
                     type="Bachelor Of Science in Mathematics"
-                    time="2020-present" place="Nigerian Navy secondary school"
+                    time="2020-present" place="Federal university of agriculture, Abeokuta"
                     info="Currently learning the base level of abstract mathematics."
                     />
-
-                    
-
                     
                 </ul>
             </div>

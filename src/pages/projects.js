@@ -6,6 +6,9 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project2 from "../../public/images/projects/nft.png";
+import project3 from "../../public/images/projects/library.jpg";
+import project4 from "../../public/images/projects/zora.jpg";
 import { motion } from "framer-motion";
 
 
@@ -91,35 +94,35 @@ const projects = () => {
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <div className="col-span-12">
                             <FeaturedProject
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency."
+                                title="Full stack NFT Marketplace"
+                                img={project2}
+                                summary="Full stack NFT Marketplace built with Next.js, Tailwind, solidity, Hardhat. 
+                                Users can buy and sell NFT'S on this platform. You can easily convert your ART in crypto currency."
                                 type="Featured Project"
-                                link="/"
-                                github="/"
+                                link="https://github.com/Deji-404/NFT-Marketplace0"
+                                github="https://github.com/Deji-404/NFT-Marketplace0"
                                 />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
+                                title="React Native Mobile Bookshop App"
+                                img={project3}
                                 type="Featured Project"
-                                link="/"
-                                github="/"
+                                link="https://github.com/Deji-404/Simple-React-native-mobile-e-commerce-app"
+                                github="https://github.com/Deji-404/Simple-React-native-mobile-e-commerce-app"
                                 />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
+                                title="Zora Eth Explora"
+                                img={project4}
                                 type="Featured Project"
-                                link="/"
-                                github="/"
+                                link="https://github.com/Deji-404/zoraEthExplora"
+                                github="https://github.com/Deji-404/zoraEthExplora"
                                 />
                         </div>
 
+                        {/**
                         <div className="col-span-12">
                             <FeaturedProject
                                 title="Crypto Screener Application"
@@ -150,7 +153,7 @@ const projects = () => {
                                 github="/"
                                 />
                         </div>
-
+                        */}
                     </div>
                 </Layout>
             </main>
